@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sözlük</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>English - English Dictionary</h1>
+        <input type="text" class="word"  id="word" placeholder="Enter a word">
+        <button class="translatebutton">Translate</button>
+        <div class="translatedDiv" id="translatedDiv">
+            <p>Word : <span class="title" id="title"></span></p>
+            <p>Meaning  : <span class="meaning" id="meaning"></span></p>
+            <audio src="" id="audio" controls></audio>
+        </div>
+        <div class="main-popup">
+    
+            <div class="popup">
+              <div class="popup-close"><i class="fa-solid fa-xmark fa-xl"></i></div>
+              <div class="popup-content">
+                <h3>You entered the wrong word, please enter it again.</h3>
+              </div>
+            </div>
+            
+          </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
